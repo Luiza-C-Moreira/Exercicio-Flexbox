@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox HTML</title>
+</head>
+<style> 
+body {
+    margin: 0;
+} 
+
+h1{
+    width: fit-content;
+    margin: auto;
+}
+
+/* ---------------- Exercicio A ---------------- */
+/* ---------------- Conteiner 1 ---------------- */
+.container1 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.da{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.a1{
+    background-color: #432371;
+    align-self: flex-start;
+}
+
+.a2{
+    background-color: #714674;
+}
+
+.a3{
+    background-color: #9F6976;
+}
+
+.a4{
+   background-color: #CC8B79; 
+   align-self: flex-end;
+}
+
+/* ---------------- Conteiner 2 ---------------- */
+.container2 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.db{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.b1{
+    background-color: #FF51EB;
+    align-self: flex-start;
+}
+
+.b2{
+    background-color: #FB76C1;
+}
+
+.b3{
+    background-color: #F69A97;
+}
+
+.b4{
+   background-color: #F2BF6C; 
+   align-self: flex-end;
+}
+
+/* ---------------- Conteiner 3 ---------------- */
+.container3 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dc{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.c1{
+    background-color: #eae4e9;
+    align-self: flex-start;
+}
+
+.c2{
+    background-color: #fff1e6;
+}
+
+.c3{
+    background-color: #fde2e4;
+}
+
+.c4{
+   background-color: #fad2e1; 
+   align-self: flex-end;
+}
+
+/* ---------------- Conteiner 4 ---------------- */
+.container4 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dd{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.d1{
+    background-color: #f95738;
+    align-self: flex-start;
+}
+
+.d2{
+    background-color: #ee964b;
+}
+
+.d3{
+    background-color: #f4d35e;
+}
+
+.d4{
+   background-color: #faf0ca; 
+   align-self: flex-end;
+}
+
+/* ---------------- Conteiner 5 ---------------- */
+.container5 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.de{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.e1{
+    background-color: #c9cba3;
+    align-self: flex-start;
+}
+
+.e2{
+    background-color: #ffe1a8;
+}
+
+.e3{
+    background-color: #e26d5c;
+}
+
+.e4{
+   background-color: #723d46; 
+   align-self: flex-end;
+}
+
+/* ---------------- Conteiner 6 ---------------- */
+.container6 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.df{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.f1{
+    background-color: #E85C90;
+    align-self: flex-start;
+}
+
+.f2{
+    background-color: #C481A7;
+}
+
+.f3{
+    background-color: #A0A6BE;
+}
+
+.f4{
+   background-color: #7CCAD5; 
+   align-self: flex-end;
+}
+
+/* ---------------- Exercicio B ---------------- */
+.containerb1 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.deb{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.eb1{
+    background-color: #344e41;
+}
+
+.eb2{
+    background-color: #3a5a40;
+}
+
+.eb3{
+    background-color: #588157;
+}
+
+.eb4{
+   background-color: #a3b18a; 
+}
+
+/* ---------------- Exercicio C - Desafio ---------------- */
+.container_desafio {
+    border-radius: 5px;
+    width: 100%;
+    background-color: ghostwhite;
+    border: solid 0.5px black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.dec{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.ec1{
+    background-color: #660708;
+}
+
+.ec2{
+    background-color: #a4161a;
+}
+
+.ec3{
+    background-color: #ba181b;
+}
+
+.ec4{
+   background-color: #e5383b; 
+}
+</style>
+
+<body>
+    
+    <!-- EXERCICIO A - Organize os elementos de classe "container1" até "container6", para que os itens fiquem como o exemplo abaixo: -->
+    <h1>Exercicio A-1</h1>
+    <div class="container1">
+        <div class="da a1"><h1>1</h1></div>
+        <div class="da a2"><h1>2</h1></div>
+        <div class="da a3"><h1>3</h1></div>
+        <div class="da a4"><h1>4</h1></div>
+    </div><br>
+
+    <h1>Exercicio A-2</h1>
+    <div class="container2">
+        <div class="db b1"><h1>1</h1></div>
+        <div class="db b2"><h1>2</h1></div>
+        <div class="db b3"><h1>3</h1></div>
+        <div class="db b4"><h1>4</h1></div>
+    </div><br>
+
+    <h1>Exercicio A-3</h1>
+    <div class="container3">
+        <div class="dc c1"><h1>1</h1></div>
+        <div class="dc c2"><h1>2</h1></div>
+        <div class="dc c3"><h1>3</h1></div>
+        <div class="dc c4"><h1>4</h1></div>
+    </div><br>
+
+    <h1>Exercicio A-4</h1>
+    <div class="container4">
+        <div class="dd d1"><h1>1</h1></div>
+        <div class="dd d2"><h1>2</h1></div>
+        <div class="dd d3"><h1>3</h1></div>
+        <div class="dd d4"><h1>4</h1></div>
+    </div><br>
+
+    <h1>Exercicio A-5</h1>
+    <div class="container5">
+        <div class="de e1"><h1>1</h1></div>
+        <div class="de e2"><h1>2</h1></div>
+        <div class="de e3"><h1>3</h1></div>
+        <div class="de e4"><h1>4</h1></div>
+    </div><br>
+
+    <h1>Exercicio A-6</h1>
+    <div class="container6">
+        <div class="df f1"><h1>1</h1></div>
+        <div class="df f2"><h1>2</h1></div>
+        <div class="df f3"><h1>3</h1></div>
+        <div class="df f4"><h1>4</h1></div>
+    </div><br>
+
+    <!-- EXERCICIO B - Estilize a div com classe "container-exercicioB" para que fique como abaixo: -->
+    <h1>Exercicio B</h1>
+    <div class="containerb1">
+        <div class="deb eb1"><h1>1</h1></div>
+        <div class="deb eb2"><h1>2</h1></div>
+        <div class="deb eb3"><h1>3</h1></div>
+        <div class="deb eb4"><h1>4</h1></div>
+    </div><br>
+
+        <!-- Levando como exemplo os exercícios A e B, desenvolva a página de forma que seus elementos fiquem dispostos alinhados horizontalmente da direita para a esquerda, tendo seu último elemento “grudado” no lado esquerdo da tela. Estilize a div com classe "container-desafio" para que fique como abaixo: -->
+        <h1>Exercicio C - Desafio</h1>
+        <div class="container_desafio">
+            <div class="dec ec1"><h1>1</h1></div>
+            <div class="dec ec2"><h1>2</h1></div>
+            <div class="dec ec3"><h1>3</h1></div>
+            <div class="dec ec4"><h1>4</h1></div>
+        </div><br>
+
+</body>
+</html>
